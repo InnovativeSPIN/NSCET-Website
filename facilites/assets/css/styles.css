@@ -1,0 +1,136 @@
+.img-cols {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 8px 0px 8px 0px;
+  padding: 0px;
+}
+
+.nav-links {
+  font-weight: bold;
+  font-family: Adamina, serif;
+  display: flex;
+  align-items: center;
+}
+
+@media (min-width: 992px) {
+  .jumbo-tron {
+    padding: 42px;
+    margin: 0px;
+  }
+}
+
+@media (max-width: 992px) {
+  .jumbo-tron {
+    padding: 16px;
+  }
+}
+
+@media (max-width: 992px) {
+  .head-ing {
+    font-family: Adamina, serif;
+    text-align: center;
+    font-size: 22px;
+    border-bottom: 3px solid black;
+  }
+}
+
+@media (min-width: 992px) {
+  .head-ing {
+    font-family: Adamina, serif;
+    text-align: center;
+    font-size: 42px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+@media (min-width: 992px) {
+  .nav-links {
+    font-size: 26px;
+    color: whitesmoke;
+  }
+}
+
+@media (max-width: 992px) {
+  .nav-links {
+    font-size: 16px;
+    color: whitesmoke;
+  }
+}
+
+a:hover {
+  color: #d3bb00;
+  text-decoration: underline;
+}
+
+@media (max-width: 992px) {
+  .nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+    color: #495057;
+    background-color: #e2f6ff;
+    border-radius: 22px;
+  }
+}
+
+@media (min-width: 992px) {
+  .nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+    color: #495057;
+    background-color: #e2f6ff;
+    border-top-right-radius: 22px;
+    border-top-left-radius: 22px;
+  }
+}
+
+@media (max-width: 992px) {
+  .main-head {
+    text-align: center;
+    font-family: Adamina, serif;
+    font-size: 28px;
+  }
+}
+
+@media (min-width: 992px) {
+  .main-head {
+    text-align: center;
+    font-family: Adamina, serif;
+    font-size: 48px;
+  }
+}
+
+.sec-head {
+  font-size: 32px;
+  font-family: 'Adamina';
+  color: #800000;
+}
+
+.img-l {
+  justify-content: center;
+}
+
+.img-r {
+  justify-content: center;
+}
+
+@media (max-width: 768px) {
+  .img-l {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+@media (max-width: 768px) {
+  .img-r {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+}
+
+@media (max-width: 768px) {
+  .sec-head {
+    font-size: 21px;
+  }
+}
+
