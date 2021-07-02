@@ -1,0 +1,1636 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>Placement Cell</title>
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700">
+    <link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/fonts/ionicons.min.css">
+    <link rel="stylesheet" href="assets/css/head_foo.css">
+    <link rel="stylesheet" href="assets/css/Header-Blue.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel='stylesheet' href='https://use.fontawesome.com/releases/v5.7.2/css/all.css'>
+</head>
+
+<body>
+    <header class="page-head" style="width: 100%;position: sticky;top: 0px;z-index: 5;">
+        <section class="nav-sec">
+            <nav class="navbar navbar-light navbar-expand-md navigation-clean" style="background: #104565;padding: 0px;margin: 0px;border-bottom: 0.1px solid rgba(255,255,255,0.2);">
+                <div class="container">
+                    <a class="d-lg-flex align-items-lg-center clg-home-logo" href="../index.html" style="text-decoration: none;border-color: rgb(255,255,255);margin-right: 62px;">
+                        <h1 style="color: rgb(255,255,255);margin: 0px;padding-left: 12px;padding-right: 12px;font-family: Adamina, serif;">NSCET</h1>
+                    </a><button data-toggle="collapse" class="navbar-toggler" data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
+                    <div class="collapse navbar-collapse d-lg-flex flex-column align-items-lg-end" id="navcol-1" style="margin-left: 32px;">
+                        <ul class="navbar-nav float-left" style="border-right: 1px solid rgba(255,255,255,0.25) ;">
+                            <li class="nav-item"><a class="nav-link" href="../index.html" style="color: #ffffff;"><strong>HOME</strong></a></li>
+                            <li class="nav-item dropdown"><a class="dropdown-toggle nav-link" aria-expanded="false" data-toggle="dropdown" style="color: #ffffff;"><strong>ADMINISTRATION</strong></a>
+                                <div class="dropdown-menu"><a class="dropdown-item">Vision</a><a class="dropdown-item">Mission &amp; Core values</a><a class="dropdown-item">Governance</a><a class="dropdown-item">Organogram</a><a class="dropdown-item">College Profile</a><a class="dropdown-item">Policies</a></div>
+                            </li>
+                            <li class="nav-item dropdown"><a class="dropdown-toggle nav-link" aria-expanded="false" data-toggle="dropdown" style="color: #ffffff;"><strong>ADMISSION</strong></a>
+                                <div class="dropdown-menu"><a class="dropdown-item" href='../admission_2021/index.html'>Eligibility for Admission&nbsp;</a><a class="dropdown-item" href='../admission_2021/index.html'>B.E Admission</a><a class="dropdown-item" href='../admission_2021/index.html'>M.E / M.Tech Admission</a></div>
+                            </li>
+                            <li class="nav-item dropdown"><a class="dropdown-toggle nav-link" aria-expanded="false" data-toggle="dropdown" style="color: #ffffff;"><strong>ACADEMICS</strong></a>
+                                <div class="dropdown-menu"><a class="dropdown-item" href="../index.html#ug-program-id">UG Programmes</a><a class="dropdown-item" href="../index.html#pg-program-id">PG Programmes</a><a class="dropdown-item" href="#">Regulations</a><a class="dropdown-item"
+                                        href="#">Curriculum &amp; Syllabus</a></div>
+                            </li>
+                            <li class="nav-item dropdown"><a class="dropdown-toggle nav-link" aria-expanded="false" data-toggle="dropdown" style="color: #ffffff;"><strong>DEPARTMENTS</strong></a>
+                                <div class="dropdown-menu"><a class="dropdown-item" href='../department/civil.html'>Civil Engineering</a><a class="dropdown-item" href='../department/eee.html'>Electrical and Electronics Engineering</a><a class="dropdown-item" href='../department/ece.html'>Electrical &amp; Communication Engineering</a>
+                                    <a class="dropdown-item" href='../department/cse.html'>Computer Science &amp; Engineering</a><a class="dropdown-item" href='../department/mech.html'>Mechanical Engineering</a><a class="dropdown-item" href='../department/s_and_h.html'>English</a>
+                                    <a class="dropdown-item" href='../department/s_and_h.html'>Mathematics</a><a class="dropdown-item" href='../department/s_and_h.html'>Physics</a><a class="dropdown-item" href='../department/s_and_h.html'>Chemistry</a></div>
+                            </li>
+                            <li class="nav-item"><a class="nav-link" href="#" style="color: #ffffff;"><strong>HOSTEL</strong></a></li>
+                            <li class="nav-item"><a class="nav-link" href="../Placement_page2021/index.html" style="color: #ffffff;"><strong>PLACEMENT</strong></a></li>
+                            <li class="nav-item"><a class="nav-link" href="#" style="color: #ffffff;"><strong>CAREER</strong></a></li>
+                            <li class="nav-item dropdown"><a class="dropdown-toggle nav-link" aria-expanded="false" data-toggle="dropdown" style="color: #ffffff;"><strong>LOGIN</strong></a>
+                                <div class="dropdown-menu"><a class="dropdown-item">Student</a><a class="dropdown-item">Faculty</a></div>
+                            </li>
+                        </ul>
+                        <ul class="navbar-nav d-flex">
+                            <li class="nav-item"><a class="nav-link" href="#" style="color: #ffffff;"><em>Library</em></a></li>
+                            <li class="nav-item"><a class="nav-link" href="../facilites/facilites.html#item-1-1-tab" style="color: #ffffff;"><em>Infrastructure</em></a></li>
+                            <li class="nav-item"><a class="nav-link" href="#" style="color: #ffffff;"><em>Gallery</em></a></li>
+                            <li class="nav-item"><a class="nav-link" href="#" style="color: #ffffff;"><em>Alumini</em></a></li>
+                            <li class="nav-item dropdown"><a class="dropdown-toggle nav-link" aria-expanded="false" data-toggle="dropdown" style="color: #ffffff;"><em>Clubs &amp; Chapters</em></a>
+                                <div class="dropdown-menu"><a class="dropdown-item" href="#">IIPC</a><a class="dropdown-item" href="#" style="color: rgb(55, 67, 77);">ISTE Student Chapter</a>
+                                    <div class="nav-item dropright show club-drop" style="padding-left: 24px;"><a class="dropdown-toggle club-drop" aria-expanded="true" data-toggle="dropdown" style="color: rgb(55,67,77);">Clubs</a>
+                                        <div class="dropdown-menu show club-drop-m"><a class="dropdown-item" href="#">iSPIN</a><a class="dropdown-item" href="#">Club 0</a><a class="dropdown-item" href="#">Club 1</a><a class="dropdown-item" href="#">Club 2</a></div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="nav-item"><a class="nav-link" href="#" style="color: #ffffff;"><em>IQAC</em></a></li>
+                            <li class="nav-item"><a class="nav-link" href="#" style="color: #ffffff;"><em>Research &amp; Developement</em></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </section>
+    </header>
+
+    <div class="sub-menu">
+        <button id='col-exp-btn' onclick="expan_collp()"><i id='icon-text' class="fas fa-bars">&nbsp;Menu</i></button>
+
+        <h5>NSCET CELLS &#38 CLUBS</h5>
+    </div>
+
+    <div class="card d-flex flex-row justify-content-lg-center">
+        <div id='head-card' style="display: none;" class="card-header d-lg-flex flex-column align-items-center align-items-lg-center">
+            <h4><strong>CELLS &#38 CLUBS</strong></h4>
+            <ul class="nav nav-tabs card-header-tabs d-flex flex-column" role="tablist" style="margin: 0px;font-size: 20px;">
+                <li class="nav-item"><a onclick="expan_collp()" class="nav-link active side-nav-links" id="item-1-1-tab" data-toggle="tab" role="tab" aria-controls="item-1-1" aria-selected="true" href="#item-1-1">NSS</a></li>
+                <li class="nav-item"><a onclick="expan_collp()" class="nav-link side-nav-links" id="item-1-2-tab" data-toggle="tab" role="tab" aria-controls="item-1-2" aria-selected="false" href="#item-1-2">YRC</a></li>
+                <li class="nav-item"><a onclick="expan_collp()" class="nav-link side-nav-links" id="item-1-3-tab" data-toggle="tab" role="tab" aria-controls="item-1-3" aria-selected="false" href="#item-1-3">RED RIBBON CLUB</a></li>
+                <li class="nav-item"><a onclick="expan_collp()" class="nav-link side-nav-links" id="item-1-4-tab" data-toggle="tab" role="tab" aria-controls="item-1-4" aria-selected="false" href="#item-1-4">GEC</a></li>
+                <li class="nav-item"><a onclick="expan_collp()" class="nav-link side-nav-links" id="item-1-5-tab" data-toggle="tab" role="tab" aria-controls="item-1-5" aria-selected="false" href="#item-1-5">EDC</a></li>
+                <li class="nav-item"><a onclick="expan_collp()" class="nav-link side-nav-links" id="item-1-6-tab" data-toggle="tab" role="tab" aria-controls="item-1-6" aria-selected="false" href="#item-1-6">IIPC</a></li>
+                <li class="nav-item"><a onclick="expan_collp()" class="nav-link side-nav-links" id="item-1-7-tab" data-toggle="tab" role="tab" aria-controls="item-1-7" aria-selected="false" href="#item-1-7">R&#38;D CELL</a></li>
+                <li class="nav-item"><a onclick="expan_collp()" class="nav-link side-nav-links" id="item-1-8-tab" data-toggle="tab" role="tab" aria-controls="item-1-8" aria-selected="false" href="#item-1-8">AA</a></li>
+                <li class="nav-item"><a onclick="expan_collp()" class="nav-link side-nav-links" id="item-1-9-tab" data-toggle="tab" role="tab" aria-controls="item-1-9" aria-selected="false" href="#item-1-9">EXAM CELL</a></li>
+                <li class="nav-item"><a onclick="expan_collp()" class="nav-link side-nav-links" id="item-1-10-tab" data-toggle="tab" role="tab" aria-controls="item-1-10" aria-selected="false" href="#item-1-10">PLACEMENT CELL</a></li>
+                <li class="nav-item"><a onclick="expan_collp()" class="nav-link side-nav-links" id="item-1-11-tab" data-toggle="tab" role="tab" aria-controls="item-1-11" aria-selected="false" href="#item-1-11">WEC</a></li>
+                <li class="nav-item"><a onclick="expan_collp()" class="nav-link side-nav-links" id="item-1-12-tab" data-toggle="tab" role="tab" aria-controls="item-1-12" aria-selected="false" href="#item-1-12">PTA</a></li>
+                <li class="nav-item"><a onclick="expan_collp()" class="nav-link side-nav-links" id="item-1-13-tab" data-toggle="tab" role="tab" aria-controls="item-1-13" aria-selected="false" href="#item-1-13">NLC</a></li>
+                <li class="nav-item"><a onclick="expan_collp()" class="nav-link side-nav-links" id="item-1-14-tab" data-toggle="tab" role="tab" aria-controls="item-1-14" aria-selected="false" href="#item-1-14">MATH CLUB</a></li>
+                <li class="nav-item"><a onclick="expan_collp()" class="nav-link side-nav-links" id="item-1-15-tab" data-toggle="tab" role="tab" aria-controls="item-1-15" aria-selected="false" href="#item-1-15">CML</a></li>
+                <li class="nav-item"><a onclick="expan_collp()" class="nav-link side-nav-links" id="item-1-16-tab" data-toggle="tab" role="tab" aria-controls="item-1-16" aria-selected="false" href="#item-1-16">CG &#38; EC</a></li>
+                <li class="nav-item"><a onclick="expan_collp()" class="nav-link side-nav-links" id="item-1-17-tab" data-toggle="tab" role="tab" aria-controls="item-1-17" aria-selected="true" href="#item-1-17">SCC</a></li>
+                <li class="nav-item"><a onclick="expan_collp()" class="nav-link side-nav-links" id="item-1-18-tab" data-toggle="tab" role="tab" aria-controls="item-1-18" aria-selected="false" href="#item-1-18">READER CLUB</a></li>
+                <li class="nav-item"><a onclick="expan_collp()" class="nav-link side-nav-links" id="item-1-19-tab" data-toggle="tab" role="tab" aria-controls="item-1-19" aria-selected="false" href="#item-1-19">QIC</a></li>
+                <li class="nav-item"><a onclick="expan_collp()" class="nav-link side-nav-links" id="item-1-20-tab" data-toggle="tab" role="tab" aria-controls="item-1-20" aria-selected="false" href="#item-1-20">SDC</a></li>
+                <li class="nav-item"><a onclick="expan_collp()" class="nav-link side-nav-links" id="item-1-21-tab" data-toggle="tab" role="tab" aria-controls="item-1-21" aria-selected="false" href="#item-1-21">LLC</a></li>
+                <li class="nav-item"><a onclick="expan_collp()" class="nav-link side-nav-links" id="item-1-22-tab" data-toggle="tab" role="tab" aria-controls="item-1-22" aria-selected="false" href="#item-1-22">NSCET - RANA</a></li>
+                <li class="nav-item"><a onclick="expan_collp()" class="nav-link side-nav-links" id="item-1-23-tab" data-toggle="tab" role="tab" aria-controls="item-1-23" aria-selected="false" href="#item-1-23">CDC</a></li>
+                <li class="nav-item"><a onclick="expan_collp()" class="nav-link side-nav-links" id="item-1-24-tab" data-toggle="tab" role="tab" aria-controls="item-1-24" aria-selected="false" href="#item-1-24">ISTE</a></li>
+                <li class="nav-item"><a onclick="expan_collp()" class="nav-link side-nav-links" id="item-1-25-tab" data-toggle="tab" role="tab" aria-controls="item-1-25" aria-selected="false" href="#item-1-25">CFD</a></li>
+                <li class="nav-item"><a onclick="expan_collp()" class="nav-link side-nav-links" id="item-1-26-tab" data-toggle="tab" role="tab" aria-controls="item-1-26" aria-selected="false" href="#item-1-26">HFC</a></li>
+                <li class="nav-item"><a onclick="expan_collp()" class="nav-link side-nav-links" id="item-1-27-tab" data-toggle="tab" role="tab" aria-controls="item-1-27" aria-selected="false" href="#item-1-27">FINE ARTS CLUB</a></li>
+                <li class="nav-item"><a onclick="expan_collp()" class="nav-link side-nav-links" id="item-1-28-tab" data-toggle="tab" role="tab" aria-controls="item-1-28" aria-selected="false" href="#item-1-28">WMC</a></li>
+                <li class="nav-item"><a onclick="expan_collp()" class="nav-link side-nav-links" id="item-1-29-tab" data-toggle="tab" role="tab" aria-controls="item-1-29" aria-selected="false" href="#item-1-29">TMC</a></li>
+                <li class="nav-item"><a onclick="expan_collp()" class="nav-link side-nav-links" id="item-1-30-tab" data-toggle="tab" role="tab" aria-controls="item-1-30" aria-selected="false" href="#item-1-30">DTP WORK</a></li>
+                <li class="nav-item"><a onclick="expan_collp()" class="nav-link side-nav-links" id="item-1-31-tab" data-toggle="tab" role="tab" aria-controls="item-1-31" aria-selected="false" href="#item-1-31">UNIFORM CELL</a></li>
+                <li class="nav-item"><a onclick="expan_collp()" class="nav-link side-nav-links" id="item-1-32-tab" data-toggle="tab" role="tab" aria-controls="item-1-32" aria-selected="false" href="#item-1-32">SMC</a></li>
+                <li class="nav-item"><a onclick="expan_collp()" class="nav-link side-nav-links" id="item-1-33-tab" data-toggle="tab" role="tab" aria-controls="item-1-33" aria-selected="false" href="#item-1-33">FMC</a></li>
+                <li class="nav-item"><a onclick="expan_collp()" class="nav-link side-nav-links" id="item-1-34-tab" data-toggle="tab" role="tab" aria-controls="item-1-34" aria-selected="false" href="#item-1-34">EMC</a></li>
+                <li class="nav-item"><a onclick="expan_collp()" class="nav-link side-nav-links" id="item-1-35-tab" data-toggle="tab" role="tab" aria-controls="item-1-35" aria-selected="false" href="#item-1-35">BWMC</a></li>
+                <li class="nav-item"><a onclick="expan_collp()" class="nav-link side-nav-links" id="item-1-36-tab" data-toggle="tab" role="tab" aria-controls="item-1-36" aria-selected="false" href="#item-1-36">SMC</a></li>
+                <li class="nav-item"><a onclick="expan_collp()" class="nav-link side-nav-links" id="item-1-37-tab" data-toggle="tab" role="tab" aria-controls="item-1-37" aria-selected="false" href="#item-1-37">GARDENING CELL</a></li>
+                <li class="nav-item"><a onclick="expan_collp()" class="nav-link side-nav-links" id="item-1-38-tab" data-toggle="tab" role="tab" aria-controls="item-1-38" aria-selected="false" href="#item-1-38">CMC</a></li>
+                <li class="nav-item"><a onclick="expan_collp()" class="nav-link side-nav-links" id="item-1-39-tab" data-toggle="tab" role="tab" aria-controls="item-1-39" aria-selected="false" href="#item-1-39">HMC</a></li>
+                <li class="nav-item"><a onclick="expan_collp()" class="nav-link side-nav-links" id="item-1-40-tab" data-toggle="tab" role="tab" aria-controls="item-1-40" aria-selected="false" href="#item-1-40">ACMC</a></li>
+                <li class="nav-item"><a onclick="expan_collp()" class="nav-link side-nav-links" id="item-1-41-tab" data-toggle="tab" role="tab" aria-controls="item-1-41" aria-selected="false" href="#item-1-41">SINMC</a></li>
+                <li class="nav-item"><a onclick="expan_collp()" class="nav-link side-nav-links" id="item-1-42-tab" data-toggle="tab" role="tab" aria-controls="item-1-2" aria-selected="false" href="#item-1-42">PRC</a></li>
+
+            </ul>
+        </div>
+        <div class="card-body">
+            <div id="nav-tabContent" class="tab-content" style="text-align: center;">
+
+                <div id="item-1-1" class="tab-pane fade show active" role="tabpanel" aria-labelledby="item-1-1-tab">
+                    <div>
+                        <h4>National Service Scheme </h4>
+                    </div>
+                    <div class="coordinator-cls">
+                        <table>
+                            <tr>
+                                <th>COORDINATOR</th>
+                                <th>MEMBERS</th>
+                            </tr>
+                            <tr>
+                                <td>Mr. R.Pradeep Kumar AP/ECE</td>
+                                <td>
+                                    <p>Mr. K.Arunjunai Karthick AP/ CSE</p>
+                                    <p>Ms. T. Yasika AP/ Civil</p>
+                                    <p>Mr. B. Nagarajan AP / MECH</p>
+                                    <p>Mr. S. Kalidass AP /CHE</p>
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+
+                    <div class="cell-duty-cls">
+                        <h6>Duties &#38 Responsibilities</h6>
+                        <div class="cell-duty">
+                            <p><i class="fas fa-star"></i> Select the adequate students (both boys & girls) from First, second & third year</p>
+                            <p><i class="fas fa-star"></i> Inaugurate the Club</p>
+                            <p><i class="fas fa-star"></i> Conduct Awareness program</p>
+                            <p><i class="fas fa-star"></i> Conduct a Camp</p>
+                            <p><i class="fas fa-star"></i> Maintain cleanliness in our campus</p>
+                            <p><i class="fas fa-star"></i> Support Whenever College Function Occur</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="item-1-2" class="tab-pane fade" role="tabpanel" aria-labelledby="item-1-1-tab">
+                    <div>
+                        <h4>Youth Red Cross</h4>
+                    </div>
+                    <div class="coordinator-cls">
+                        <table>
+                            <tr>
+                                <th>COORDINATOR</th>
+                                <th>MEMBERS</th>
+                            </tr>
+                            <tr>
+                                <td>Mr. R.Radhakrishnan AP/ Mech</td>
+                                <td>
+                                    <p>Mr. A. Duraimurugan AP / CSE</p>
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+
+                    <div class="cell-duty-cls">
+                        <h6>Duties &#38 Responsibilities</h6>
+                        <div class="cell-duty">
+                            <p><i class="fas fa-star"></i> Select the adequate students (both boys & girls) from First, second & third year</p>
+                            <p><i class="fas fa-star"></i> Inaugurate the Club</p>
+                            <p><i class="fas fa-star"></i> Conduct Awareness program</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="item-1-3" class="tab-pane fade" role="tabpanel" aria-labelledby="item-1-1-tab">
+                    <div>
+                        <h4>Red Ribbon Club</h4>
+                    </div>
+                    <div class="coordinator-cls">
+                        <table>
+                            <tr>
+                                <th>COORDINATOR</th>
+                                <th>MEMBERS</th>
+                            </tr>
+                            <tr>
+                                <td>Ms.M.Mahalakshmi AP /MATHS</td>
+                                <td>
+                                    <p>Mr. K.Arunjunai Karthick AP/CSE</p>
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+
+                    <div class="cell-duty-cls">
+                        <h6>Duties &#38 Responsibilities</h6>
+                        <div class="cell-duty">
+                            <p><i class="fas fa-star"></i> Select the adequate students (both boys & girls) from First, second & third year</p>
+                            <p><i class="fas fa-star"></i> Inaugurate the Club</p>
+                            <p><i class="fas fa-star"></i> Conduct Awareness program</p>
+                            <p><i class="fas fa-star"></i> Conduct a Blood Donation Camp</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="item-1-4" class="tab-pane fade" role="tabpanel" aria-labelledby="item-1-1-tab">
+                    <div>
+                        <h4>Green Environment Club</h4>
+                    </div>
+                    <div class="coordinator-cls">
+                        <table>
+                            <tr>
+                                <th>COORDINATOR</th>
+                                <th>MEMBERS</th>
+                            </tr>
+                            <tr>
+                                <td>Mr. R.Dhandayuthapani AP / PHY</td>
+                                <td>
+                                    <p>Mr. J.Eswaran AP / MECH</p>
+                                    <p>Ms. M.Poovarasi AP/Civil</p>
+                                    <p>Mr. D.Edison Selvaraj AP/ EEE</p>
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+
+                    <div class="cell-duty-cls">
+                        <h6>Duties &#38 Responsibilities</h6>
+                        <div class="cell-duty">
+                            <p><i class="fas fa-star"></i> Make our campus green and pollution free by planting more trees and using green energy.</p>
+                            <p><i class="fas fa-star"></i> Initiate the Rain Water Harvesting plant</p>
+                            <p><i class="fas fa-star"></i> Initiate the solar power in the college premises</p>
+                            <p><i class="fas fa-star"></i> Solve the energy crises</p>
+                            <p><i class="fas fa-star"></i> Associate the NSS team for campus cleaning</p>
+                            <p><i class="fas fa-star"></i> Arrange the guest lectures</p>
+                        </div>
+                    </div>
+                </div>
+                <!--End oF Social Welfare Cell-->
+
+                <!--Start Of Development cell-->
+                <div id="item-1-5" class="tab-pane fade" role="tabpanel" aria-labelledby="item-1-1-tab">
+                    <div>
+                        <h4>Entrepreneurship Development and Institution Innovation Cell</h4>
+                    </div>
+                    <div class="coordinator-cls">
+                        <table>
+                            <tr>
+                                <th>COORDINATOR</th>
+                                <th>MEMBERS</th>
+                            </tr>
+                            <tr>
+                                <td>Mr. M.Arivalagan HOD / EEE</td>
+                                <td>
+                                    <p>Mr. K. Rajaguru AP/ PHY</p>
+                                    <p>Mr. S.Manimaran AP/ Civil</p>
+                                    <p>Mr. P.G.Siva Sharma Karthick AP /CSE</p>
+                                    <p>Mr. R.Santhaseelan AP/ Mech</p>
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+
+                    <div class="cell-duty-cls">
+                        <h6>Duties &#38 Responsibilities</h6>
+                        <div class="cell-duty">
+                            <p><i class="fas fa-star"></i> Select the student member</p>
+                            <p><i class="fas fa-star"></i> Create awareness about the Entrepreneurship by conducting workshops, seminars etc.,{Technical Ideas)</p>
+                            <p><i class="fas fa-star"></i> Arrange Industrial Visits (Small Scale Industries)</p>
+                            <p><i class="fas fa-star"></i> Motivate the students to become an Entrepreneur</p>
+                            <p><i class="fas fa-star"></i> Maintain the record of Entrepreneurs list of our students and the related documents</p>
+                            <p><i class="fas fa-star"></i> Create awareness for doing innovative research</p>
+                            <p><i class="fas fa-star"></i> Establish the start-up culture</p>
+                            <p><i class="fas fa-star"></i> Get funds for innovative projects & fund for conferences, workshops, seminars etc., (for the conversion of research projects into real products)</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="item-1-6" class="tab-pane fade" role="tabpanel" aria-labelledby="item-1-1-tab">
+                    <div>
+                        <h4>Industry Institute Partnership Cell</h4>
+                    </div>
+                    <div class="coordinator-cls">
+                        <table>
+                            <tr>
+                                <th>COORDINATOR</th>
+                                <th>MEMBERS</th>
+                            </tr>
+                            <tr>
+                                <td>Dr. C. Sivakandhan Prof / Mech</td>
+                                <td>
+                                    <p>Mr. N.Nagarathinam HOD/ Civil</p>
+                                    <p>Mr. S.C.Prabanand AP / CSE</p>
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+
+                    <div class="cell-duty-cls">
+                        <h6>Duties &#38 Responsibilities</h6>
+                        <div class="cell-duty">
+                            <p><i class="fas fa-star"></i> Create MOU’s with industries</p>
+                            <p><i class="fas fa-star"></i> Establish the sponsored lab</p>
+                            <p><i class="fas fa-star"></i> Get the projects (may be funded) from Industries </p>
+                            <p><i class="fas fa-star"></i> Arrange Industrial Training & Visits for both faculty and Student</p>
+                            <p><i class="fas fa-star"></i> Arrange Guest Lectures from Industry</p>
+                            <p><i class="fas fa-star"></i> Maintain the good relationship with Industry people</p>
+                            <p><i class="fas fa-star"></i> Get the feedback from the Industry people and convey the same to the departments heads for the betterment of curriculum (Value Added courses, etc.,). </p>
+                            <p><i class="fas fa-star"></i> Associate with Training and placement cell, Entrepreneurship and innovation cell and R&D cell</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="item-1-7" class="tab-pane fade" role="tabpanel" aria-labelledby="item-1-1-tab">
+                    <div>
+                        <h4>R & D Cell</h4>
+                    </div>
+                    <div class="coordinator-cls">
+                        <table>
+                            <tr>
+                                <th>COORDINATOR</th>
+                                <th>MEMBERS</th>
+                            </tr>
+                            <tr>
+                                <td>Dr. R.Athilingam HOD /ECE</td>
+                                <td>
+                                    <p>Dr. M.Pandi Maharasan ASP / EEE</p>
+                                    <p>Dr. C.Chithra Prof /Maths</p>
+                                    <p>Mr. X. Joseph Vianny AP / Civil.</p>
+                                    <p>Dr. E. Anantha Krishnan Prof /Civil</p>
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+
+                    <div class="cell-duty-cls">
+                        <h6>Duties &#38 Responsibilities</h6>
+                        <div class="cell-duty">
+                            <p><i class="fas fa-star"></i> Encouraging the student’s projects for publication in Journals and conferences</p>
+                            <p><i class="fas fa-star"></i> Coordinate the production & Testing activities in all the departments.</p>
+                            <p><i class="fas fa-star"></i> Establish the consultancy work</p>
+                            <p><i class="fas fa-star"></i> Arrange the guest lecture, workshop, conferences, etc., </p>
+                            <p><i class="fas fa-star"></i> Maintain cleanliness in our campus</p>
+                            <p><i class="fas fa-star"></i> Establish and maintain the model room for the innovative projects</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="item-1-8" class="tab-pane fade" role="tabpanel" aria-labelledby="item-1-1-tab">
+                    <div>
+                        <h4>Alumni Association</h4>
+                    </div>
+                    <div class="coordinator-cls">
+                        <table>
+                            <tr>
+                                <th>COORDINATOR</th>
+                                <th>MEMBERS</th>
+                            </tr>
+                            <tr>
+                                <td>Mr. S. Harikishore AP/ Mech</td>
+                                <td>
+                                    <p>Mr. R. Shanmugapriyan AP/ Civil</p>
+                                    <p>Ms. M. Sindhu AP/ Civil</p>
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+
+                    <div class="cell-duty-cls">
+                        <h6>Duties &#38 Responsibilities</h6>
+                        <div class="cell-duty">
+                            <p><i class="fas fa-star"></i> Register the final year UG/PG students (after the final semester examination) as Alumni</p>
+                            <p><i class="fas fa-star"></i> ssuing the ID Card & Certificate.</p>
+                            <p><i class="fas fa-star"></i> Conduct the Alumni Meeting every year</p>
+                            <p><i class="fas fa-star"></i> Maintaining the alumni's details</p>
+                            <p><i class="fas fa-star"></i> Get the Alumni Feedback & convey the same to the department Heads for the betterment of curriculum (Value Added courses, etc.,). </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="item-1-9" class="tab-pane fade" role="tabpanel" aria-labelledby="item-1-1-tab">
+                    <div>
+                        <h4>Exam Cell</h4>
+                    </div>
+                    <div class="coordinator-cls">
+                        <table>
+                            <tr>
+                                <th>COORDINATOR</th>
+                                <th>MEMBERS</th>
+                            </tr>
+                            <tr>
+                                <td>Me. V. Sivaganesan, AP/MECH</td>
+                                <td>
+                                    <p>Ms. B.Sri Chithra Devi, AP/CSE</p>
+                                    <p>Mrs. P.Shanthi, JA</p>
+                                    <p>Mr. M.Santhose Pandian, LA/MECH</p>
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+
+                    <div class="cell-duty-cls">
+                        <h6>Duties &#38 Responsibilities</h6>
+                        <div class="cell-duty">
+                            <p><i class="fas fa-star"></i> Conduct Both Internal & University Examinations</p>
+                            <p><i class="fas fa-star"></i> Maintain the record of issuing Semester. Grade Statements, Consolidated Grade Statements, Provisional Certificates and Degree Certificates</p>
+                            <p><i class="fas fa-star"></i> Issue the Provisional Mark statements for bank loan purpose</p>
+                            <p><i class="fas fa-star"></i> Follow the COE web portals Instructions</p>
+                            <p><i class="fas fa-star"></i> Graduation Day Follow-ups </p>
+                            <p><i class="fas fa-star"></i> Follow the instruction given by the office of Zonal and Centre for examination, Anna University, Chennai</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="item-1-10" class="tab-pane fade" role="tabpanel" aria-labelledby="item-1-1-tab">
+                    <div>
+                        <h4>Placement Cell</h4>
+                    </div>
+                    <div class="coordinator-cls">
+                        <table>
+                            <tr>
+                                <th>COORDINATOR</th>
+                                <th>MEMBERS</th>
+                            </tr>
+                            <tr>
+                                <td>Ms. L. Annai Abirami</td>
+                                <td>
+                                    <p>Mr. L. S. Vignesh AP /CSE</p>
+                                    <p>Mr. S. C. Prabanand AP /CSE</p>
+                                    <p>Mr. J. Chakaravarthy samy durai AP / MECH</p>
+                                    <p>Mr. S.Manimaran AP/ Civil</p>
+                                    <p>Ms. M. Divyabharathi AP/ EEE</p>
+                                    <p>Ms. K. Sangeetha AP/ ECE</p>
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+
+                    <div class="cell-duty-cls">
+                        <h6>Duties &#38 Responsibilities</h6>
+                        <div class="cell-duty">
+                            <p><i class="fas fa-star"></i> Maintain the record of placement needed students</p>
+                            <p><i class="fas fa-star"></i> Conduct Personality development class</p>
+                            <p><i class="fas fa-star"></i> soft skill training, Aptitude training, Group Discussion, MOC Interview, etc., </p>
+                            <p><i class="fas fa-star"></i> Organizing the Value added courses</p>
+                            <p><i class="fas fa-star"></i> Maintain the relationship with industries</p>
+                            <p><i class="fas fa-star"></i> Creating MOU’s with Industries</p>
+                            <p><i class="fas fa-star"></i> Organizing Placement drives & Job fairs etc.,</p>
+                            <p><i class="fas fa-star"></i> Associate both IIPC & Communication and Multi Linguistic club</p>
+                            <p><i class="fas fa-star"></i> Prepare the policies and procedures of NSCET.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="item-1-11" class="tab-pane fade" role="tabpanel" aria-labelledby="item-1-1-tab">
+                    <div>
+                        <h4>Women Empowerment Cell</h4>
+                    </div>
+                    <div class="coordinator-cls">
+                        <table>
+                            <tr>
+                                <th>COORDINATOR</th>
+                                <th>MEMBERS</th>
+                            </tr>
+                            <tr>
+                                <td>Ms. R. Saranya Asst.Prof</td>
+                                <td>
+                                    <p>Ms. K. Malar AP/ EEE</p>
+                                    <p>Ms. P. Mahalakshmi AP / CSE</p>
+                                    <p>Ms. T. Tamil Selvi AP /ECE</p>
+                                    <p>Dr. C. Chithra Prof/ Maths</p>
+                                    <p>Ms. M. Sivasharmina AP/ Civil</p>
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+
+                    <div class="cell-duty-cls">
+                        <h6>Duties &#38 Responsibilities</h6>
+                        <div class="cell-duty">
+                            <p><i class="fas fa-star"></i> Should conduct the Seminar, Training program & guest lecturers for female faculty and students</p>
+                            <p><i class="fas fa-star"></i> Maintain the discipline of girls students in the college premises</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="item-1-12" class="tab-pane fade" role="tabpanel" aria-labelledby="item-1-1-tab">
+                    <div>
+                        <h4>Parent Teacher Association</h4>
+                    </div>
+                    <div class="coordinator-cls">
+                        <table>
+                            <tr>
+                                <th>COORDINATOR</th>
+                                <th>MEMBERS</th>
+                            </tr>
+                            <tr>
+                                <td>Mr. V.Thirumalairaj AP /Mech</td>
+                                <td>
+                                    <p>Ms. S. Arul Jothi AP / CSE</p>
+                                    <p>Ms. M. Sindhu AP/Civil</p>
+                                    <p>Ms. R. Chitra Ap/ EEE</p>
+                                    <p>Mr. M. Idhaya Chandran AP /ECE</p>
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+
+                    <div class="cell-duty-cls">
+                        <h6>Duties &#38 Responsibilities</h6>
+                        <div class="cell-duty">
+                            <p><i class="fas fa-star"></i> Conduct a PTA meeting</p>
+                            <p><i class="fas fa-star"></i> Get the parent’s Feedback & convey the same to the to the Principal (Copy to head of the departments) for the betterment of curriculum (Value Added courses, etc.,).</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="item-1-13" class="tab-pane fade" role="tabpanel" aria-labelledby="item-1-1-tab">
+                    <div>
+                        <h4>College News Letter</h4>
+                    </div>
+                    <div class="coordinator-cls">
+                        <table>
+                            <tr>
+                                <th>COORDINATOR</th>
+                                <th>MEMBERS</th>
+                            </tr>
+                            <tr>
+                                <td>Dr. C. Karthikeyan Prof / English</td>
+                                <td>
+                                    <p>Mr. K. Kirubakaran AP/ Civil</p>
+                                    <p>Ms. B. Sri Chitra Devi AP/ CSE</p>
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+
+                    <div class="cell-duty-cls">
+                        <h6>Duties &#38 Responsibilities</h6>
+                        <div class="cell-duty">
+                            <p><i class="fas fa-star"></i> Design the Same as per the department News Letter</p>
+                            <p><i class="fas fa-star"></i> Send the newsletter to our Students, various polytechnic Colleges, Members, various Schools (for Admission) etc</p>
+                            <p><i class="fas fa-star"></i> Prepare the achievements of students & Staff members and send to Anna University News Bulletin.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="item-1-14" class="tab-pane fade" role="tabpanel" aria-labelledby="item-1-1-tab">
+                    <div>
+                        <h4>MATH Club</h4>
+                    </div>
+                    <div class="coordinator-cls">
+                        <table>
+                            <tr>
+                                <th>COORDINATOR</th>
+                                <th>MEMBERS</th>
+                            </tr>
+                            <tr>
+                                <td>Dr. C. Chithra Prof /Maths</td>
+                                <td>
+                                    <p>Mr. B. Mallaiyasamy AP /Maths</p>
+                                    <p>Ms. R. Karunyah AP /Maths</p>
+                                    <p>Ms. N. Nagamani AP /Maths</p>
+                                    <p>Mr. R. Shanmugapriyan AP /Civil</p>
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+
+                    <div class="cell-duty-cls">
+                        <h6>Duties &#38 Responsibilities</h6>
+                        <div class="cell-duty">
+                            <p><i class="fas fa-star"></i> To help the students to develop their aptitude </p>
+                            <p><i class="fas fa-star"></i> To foster the mathematics applications in Engineering by conducting seminars/workshops/guest lectures, etc</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="item-1-15" class="tab-pane fade" role="tabpanel" aria-labelledby="item-1-1-tab">
+                    <div>
+                        <h4>Communication and Multi linguistics club</h4>
+                    </div>
+                    <div class="coordinator-cls">
+                        <table>
+                            <tr>
+                                <th>COORDINATOR</th>
+                                <th>MEMBERS</th>
+                            </tr>
+                            <tr>
+                                <td>Dr. C. Karthikeyan Prof / English</td>
+                                <td>
+                                    <p>Mr. R. C. Richard Britto AP/ English</p>
+                                    <p>Mr. L. S. Vignesh AP/ CSE</p>
+                                    <p>Ms. J. Iswarya AP/ English</p>
+                                    <p>MMs. K. Malar AP/ EEE</p>
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+
+                    <div class="cell-duty-cls">
+                        <h6>Duties &#38 Responsibilities</h6>
+                        <div class="cell-duty">
+                            <p><i class="fas fa-star"></i> It is a platform to learn listening and speaking skills of different languages.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="item-1-16" class="tab-pane fade" role="tabpanel" aria-labelledby="item-1-1-tab">
+                    <div>
+                        <h4>Career Guidance & Higher Education Cell</h4>
+                    </div>
+                    <div class="coordinator-cls">
+                        <table>
+                            <tr>
+                                <th>COORDINATOR</th>
+                                <th>MEMBERS</th>
+                            </tr>
+                            <tr>
+                                <td>Dr. A. Solairaj ASP /CSE</td>
+                                <td>
+                                    <p>Mr. J. Mathalai Raj HOD / S&H</p>
+                                    <p>Mr. A. Karthik raja AP /Mech</p>
+                                    <p>Mr. R. Shanmugapriyan AP/ Civil</p>
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+
+                    <div class="cell-duty-cls">
+                        <h6>Duties &#38 Responsibilities</h6>
+                        <div class="cell-duty">
+                            <p><i class="fas fa-star"></i> To conduct various programs by inviting resource persons to share the knowledge about higher education opportunities available in India and abroad,</p>
+                            <p><i class="fas fa-star"></i> Train the students for various competitive exams like GATE, IELTS, etc.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="item-1-17" class="tab-pane fade" role="tabpanel" aria-labelledby="item-1-1-tab">
+                    <div>
+                        <h4>Student Counselling cell</h4>
+                    </div>
+                    <div class="coordinator-cls">
+                        <table>
+                            <tr>
+                                <th>COORDINATOR</th>
+                                <th>MEMBERS</th>
+                            </tr>
+                            <tr>
+                                <td>Ms. G. Sugila Devi AP /Civil</td>
+                                <td>
+                                    <p>Mr. P. G. Siva Sharma Karthick AP/ CSE</p>
+                                    <p>Mr. D. Edison Selvaraj AP/ EEE</p>
+                                    <p>Ms. K. Sangeetha AP/ ECE</p>
+                                    <p>Mr. R. Nagaraja AP/ Mech</p>
+                                    <p>Mr. R .Dhandayuthapani AP/ PHY</p>
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+
+                    <div class="cell-duty-cls">
+                        <h6>Duties &#38 Responsibilities</h6>
+                        <div class="cell-duty">
+                            <p><i class="fas fa-star"></i> Follow the Mentor – Mentee System</p>
+                            <p><i class="fas fa-star"></i> Guiding students who need help regarding personal, academic and career related issues.</p>
+                            <p><i class="fas fa-star"></i> Conducts awareness programmes</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="item-1-18" class="tab-pane fade" role="tabpanel" aria-labelledby="item-1-1-tab">
+                    <div>
+                        <h4>Readers Club</h4>
+                    </div>
+                    <div class="coordinator-cls">
+                        <table>
+                            <tr>
+                                <th>COORDINATOR</th>
+                                <th>MEMBERS</th>
+                            </tr>
+                            <tr>
+                                <td>Mr. S. Sinthan</td>
+                                <td>
+                                    <p>Mr. A. Duraimurugan AP/ CSE</p>
+                                    <p>Ms. M. Poovarasi Ap/Civil</p>
+                                    <p>Dr. M. Ranjani AP/ CHE</p>
+                                    <p>Ms. M. Divyabharathi AP/ EEE</p>
+                                    <p>Ms. P. Shantha Devi AP/ ECE</p>
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+
+                    <div class="cell-duty-cls">
+                        <h6>Duties &#38 Responsibilities</h6>
+                        <div class="cell-duty">
+                            <p><i class="fas fa-star"></i> Encourage the students and create awareness on the uses of the Library resources</p>
+                            <p><i class="fas fa-star"></i> Develop interest in reading via organizing various programs/activities.</p>
+                            <p><i class="fas fa-star"></i> Create opportunities for students to develop reading habits by forming study circle </p>
+                            <p><i class="fas fa-star"></i> Conduct a Camp</p>
+                            <p><i class="fas fa-star"></i> Encouraging students to produce their own articles to publish in news papers</p>
+                            <p><i class="fas fa-star"></i> Displaying Technical and non-Technical articles in display board</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="item-1-19" class="tab-pane fade" role="tabpanel" aria-labelledby="item-1-1-tab">
+                    <div>
+                        <h4>Quality Improvement Cell</h4>
+                    </div>
+                    <div class="coordinator-cls">
+                        <table>
+                            <tr>
+                                <th>COORDINATOR</th>
+                                <th>MEMBERS</th>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <p>Mr. R.Udhaya Kumar AP /CSE</p>
+                                    <p>Dr. N.David Mathan ASp/CHE</p>
+                                </td>
+                                <td>
+                                    <p>Mr. N.Rathinaval Subramanian AP/EEE</p>
+                                    <p>Ms. S..Gayathri AP/Civil</p>
+                                    <p>Mr. P.Surulimani AP/Mech</p>
+                                    <p>Mr. R.Karthik Kumar AP/Mech</p>
+                                    <p>Ms. S.Arul Jothi Ap/CSE</p>
+                                    <p>Mr. N.Vignesan</p>
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+
+                    <div class="qic-cell-cls">
+                        <div class="qic-aim">
+                            <h6>Aim</h6>
+                            <p>Quality Improvement Cell is formed to enhance the quality of both the faculty members and the students and It has become essential to improve the teaching skills and knowledge of the teachers and learning process of students
+                                to improve quality.</p>
+                        </div>
+
+                        <div class="qic-objective">
+                            <h6>Objectives</h6>
+                            <div>
+                                <ul>
+                                    <li>Quality Improvement cell motivates and aids the faculty to switch from the traditional learning mode to the blended learning mode for the enhancement in quality of technical education.</li>
+                                    <li>In the blended learning mode, apart from the text books, faculty members have to go through the video lectures provided by eminent scholars / institutions so that teaching – learning process will be effective.</li>
+                                    <li>Faculty members are encouraged to attend conferences / seminars and workshop to update themselves on present trends. Incentives are provided to encourage their participation.</li>
+                                    <li>In addition, faculty members are motivated to submit articles in reputed journals and they are awarded for their submission</li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="vi-mi">
+                            <div class="qic-vission">
+                                <h5>VISSION</h5>
+                                <p>Establishment of an effective internal quality system to enable the NSCET to realize the vision. "NSCET aspires to become an Innovative institution by developing excellent human resources with leadership qualities, ethical
+                                    and moral values, research culture and innovative skills through higher education of global standards"</p>
+                            </div>
+                            <div class="qic-mission">
+                                <h5>MISSION</h5>
+                                <p>To design and develop appropriate quality system procedures for academic and administrative activities of the institution in consultation with all the concerned members.</p>
+                                <p>To educate, train, counsel and motivate all the members to effectively implement the developed quality system procedures.</p>
+                                <p>To identify and train a group of internal quality monitoring members to monitor the effective implementation of the quality system procedure.</p>
+                            </div>
+                        </div>
+
+                        <div class="qic-func">
+                            <h6>Functions of QIC</h6>
+                            <ul>
+                                <li>Development and application of quality benchmarks/parameters for the various academic and administrative activities.</li>
+                                <li>Facilitating the creation of a learner-centric environment conducive for quality education and faculty maturation to adopt the required knowledge and technology for participatory teaching and learning process.</li>
+                                <li>Arrangement for feedback responses from students, parents and other stakeholders on quality-related institutional processes.</li>
+                                <li>Dissemination of information on the various quality parameters of higher education;</li>
+                                <li>Organization of inter and intra institutional workshops, seminars on quality related themes and promotion of quality circles.</li>
+                                <li>Documentation of the various programmes /activities of NSCET, leading to quality improvement.</li>
+                                <li>Acting as a nodal agency of the NSCET for coordinating quality-related activities, including adoption and dissemination of good practices.</li>
+                                <li>Development and maintenance of Institutional database for the purpose of maintaining /enhancing the institutional quality.</li>
+                                <li>Development of Quality Culture in NSCET.</li>
+                                <li>Preparation of the Annual Quality Assurance Report of the NSCET based on the quality parameters / assessment criteria developed by the relevant quality assurance body (like NAAC, NBA) in the prescribed format.</li>
+                            </ul>
+                        </div>
+
+                        <div class="qic-goals">
+                            <h6>Goals of QIC</h6>
+                            <ul>
+                                <li>To develop a quality system for conscious, consistent and catalytic programmed action to improve the academic and administrative performance of the NSCET. </li>
+                                <li>To promote measures for institutional functioning towards quality enhancement through internalization of quality culture and institutionalization of best practices.</li>
+                            </ul>
+                        </div>
+
+                        <div class="qic-acti">
+                            <h6>QIC Activities</h6>
+                            <ul>
+                                <li><span>Get feedback from our honorable chief gust </span>regard that functions .these kind of feed backs are used for improving our function quality.</li>
+                                <li><span>Collect all Programs report and photos </span>from various department and cell activates it’s also used for improving our Programs quality.</li>
+                                <li><span>Collect various Reports (FDP, Seminar, Workshop, Journal etc) </span>in from all department staff members Collect certificates (Paper presentation, Symposium, Journal etc) from students it’s used for analyzing the
+                                    college quality.</li>
+                                <li><span>Attend the ISO audit </span>in effective manner and also follow the ISO regarding activities.</li>
+                                <li><span>Creating  Various formats </span> for improving academic and non academic qualities and also effectively prepare NBA .</li>
+                                <li><span>Prepare the college magazine </span>for every academic years .</li>
+                                <li><span>Collect each and  every Month Report </span>from various department activities and prepare the consolidated Monthly Report it’s used for analyzing the college quality.</li>
+                            </ul>
+                        </div>
+
+                        <div class="qic-audit">
+                            <h6>ISO Audit</h6>
+                            <p>‘ISO 9001 certified’ means an organization has met the requirements in ISO 9001. It defines an ISO 9000 Quality Management System (QMS). ISO 9001 evaluates whether your Quality Management System is appropriate and effective,
+                                while forcing you to identify and implement improvements. <br/><br/> ISO 9001 is an internationally Quality Management System. It is suitable for all organizations and will help to improve management processes to compete
+                                locally/globally. To achieve ISO 9001 certification we needs to demonstrate that it can meet the regulatory requirements and apply the system effectively to be of recall benefit.<br/><br/> When we are satisfied that our
+                                organization is working within the guidelines of the Quality Management System, it is time to call in an ISO 9001 certification Body. The audit can be conducted by a number of different certification bodies.<br/><br/> As
+                                part of the internal quality audit preparation, the ISO 9001 auditor will review the ISO 9001 requirements and process documentation defined by the institution for the process to be audited. The ISO 9001 clause for management
+                                review inputs requires include:<br/>
+                            </p>
+                            <ul>
+                                <li>Information on results of audits.</li>
+                                <li>Feedback.</li>
+                                <li>Process performance.</li>
+                                <li>Status of corrective and preventive actions.</li>
+                                <li>Follow-up actions from previous management reviews.</li>
+                                <li>Changes that could affect the quality management system</li>
+                                <li>Recommendations for improvements.</li>
+                            </ul>
+                        </div>
+
+
+                        <div class="qic-nba">
+                            <h6>National Board of Accreditation</h6>
+                            <p>The National Board of Accreditation, India was initially established by AICTE under section 10(u) of AICTE act, in the year 1994, for periodic evaluations of technical institutions and programs basis according to specified
+                                norms and standards as recommend by AICTE council.<br/><br/> NBA in its present form came into existence as an autonomous body with effect from 2010, with the objective of assurance of quality and relevance of education,
+                                especially of the program in pharmacy and hospitals, through the mechanism of accreditation of programs offered by technical institutions. <br/><br/> NBA has introduced a new process, parameters and criteria for accreditation.
+                                These are in line with the best international practices and oriented to assess the outcomes of the program.
+                            </p>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div id="item-1-20" class="tab-pane fade" role="tabpanel" aria-labelledby="item-1-1-tab">
+                    <div>
+                        <h4>Skill development Cell</h4>
+                    </div>
+                    <div class="coordinator-cls">
+                        <table>
+                            <tr>
+                                <th>COORDINATOR</th>
+                                <th>MEMBERS</th>
+                            </tr>
+                            <tr>
+                                <td>Dr. R .Athilingam HOD / ECE</td>
+                                <td>
+                                    <p>Ms. M. Sivasharmina AP / Civil</p>
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+
+                    <div class="cell-duty-cls">
+                        <h6>Duties &#38 Responsibilities</h6>
+                        <div class="cell-duty">
+                            <p><i class="fas fa-star"></i> Establish the professional societies (department wise) in the college premises by analysing merits and demerits of the same.</p>
+                            <p><i class="fas fa-star"></i> Conduct various program from the professional societies</p>
+                            <p><i class="fas fa-star"></i> Encourage the students to participate the various activities conducted by the various professional societies</p>
+                            <p><i class="fas fa-star"></i> Conduct the value added courses</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="item-1-21" class="tab-pane fade" role="tabpanel" aria-labelledby="item-1-1-tab">
+                    <div>
+                        <h4>Learn & Lead Cell</h4>
+                    </div>
+                    <div class="coordinator-cls">
+                        <table>
+                            <tr>
+                                <th>COORDINATOR</th>
+                                <th>MEMBERS</th>
+                            </tr>
+                            <tr>
+                                <td>Ms. V. Vivitha AP/ ECE</td>
+                                <td>
+                                    <p>Mr. R. C. Richard Britto AP/ Eng</p>
+                                    <p>Ms. T. Yasika AP / Civil</p>
+                                    <p>Ms. B. Shanthini AP/ EEE</p>
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+
+                    <div class="cell-duty-cls">
+                        <h6>Duties &#38 Responsibilities</h6>
+                        <div class="cell-duty">
+                            <p><i class="fas fa-star"></i> Encourage the students to self-learning through E- facilities</p>
+                            <p><i class="fas fa-star"></i> Make Students to learn through NPTEL (National Program on Technology Enhanced Learning), Swayam, etc.,</p>
+                            <p><i class="fas fa-star"></i> Maintain the e-Learning Portal in our college website.</p>
+                            <p><i class="fas fa-star"></i> Creating Activities to promote self-learning.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="item-1-22" class="tab-pane fade" role="tabpanel" aria-labelledby="item-1-1-tab">
+                    <div>
+                        <h4>NSCET - RANA</h4>
+                    </div>
+                    <div class="coordinator-cls">
+                        <table>
+                            <tr>
+                                <th>COORDINATOR</th>
+                                <th>MEMBERS</th>
+                            </tr>
+                            <tr>
+                                <td>Mr. J. Mathalai Raj HOD / S& H</td>
+                                <td>
+                                    <p>Mr. R. Udhaya Kumar AP /CSE</p>
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+
+                    <div class="cell-duty-cls">
+                        <h6>Duties &#38 Responsibilities</h6>
+                        <div class="cell-duty">
+                            <p><i class="fas fa-star"></i> To make positive interaction between the staff members of various departments of the college.</p>
+                            <p><i class="fas fa-star"></i> To arrange recreational activities for the staff members and to celebrate festivals.</p>
+                            <p><i class="fas fa-star"></i> To carry out talks on various topics for the benefit of staff members.</p>
+                            <p><i class="fas fa-star"></i> To conduct an annual cultural event/tour for the staff members and their families.</p>
+                            <p><i class="fas fa-star"></i> To organize an annual meet of the club members</p>
+                            <p><i class="fas fa-star"></i> Support Whenever College Function Occur</p>
+                            <p><i class="fas fa-star"></i> To participate the most important events happening in the club members.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="item-1-23" class="tab-pane fade" role="tabpanel" aria-labelledby="item-1-1-tab">
+                    <div>
+                        <h4>College Management System (CMS) development cell</h4>
+                    </div>
+                    <div class="coordinator-cls">
+                        <table>
+                            <tr>
+                                <th>COORDINATOR</th>
+                                <th>MEMBERS</th>
+                            </tr>
+                            <tr>
+                                <td>Mr. R.Pradeep Kumar AP/ECE</td>
+                                <td>
+                                    <p>Mr. L.S. Vignesh AP/ CSE</p>
+                                    <p>Mr. D. Vasantha Kumar</p>
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+
+                    <div class="cell-duty-cls">
+                        <h6>Duties &#38 Responsibilities</h6>
+                        <div class="cell-duty">
+                            <p><i class="fas fa-star"></i> Working with & Modify the existing, College Management System (CMS) and maintain as per the IQAC & NBA direction</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="item-1-24" class="tab-pane fade" role="tabpanel" aria-labelledby="item-1-1-tab">
+                    <div>
+                        <h4>Indian Society for Technical Education</h4>
+                    </div>
+                    <div class="coordinator-cls">
+                        <table>
+                            <tr>
+                                <th>COORDINATOR</th>
+                                <th>MEMBERS</th>
+                            </tr>
+                            <tr>
+                                <td>Mr. M. Idhaya Chandran AP /ECE</td>
+                                <td>
+                                    <p>Mr. A. Vennimalai Rajan AP /MECH</p>
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+
+                    <div class="cell-duty-cls">
+                        <h6>Duties &#38 Responsibilities</h6>
+                        <div class="cell-duty">
+                            <p><i class="fas fa-star"></i> Create staff & Student chapter</p>
+                            <p><i class="fas fa-star"></i> Should conduct conferences, workshops, seminars from ISTE fund.</p>
+                            <p><i class="fas fa-star"></i> Send the report to ISTE news letter</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="item-1-25" class="tab-pane fade" role="tabpanel" aria-labelledby="item-1-1-tab">
+                    <div>
+                        <h4>Centre for Faculty Development</h4>
+                    </div>
+                    <div class="coordinator-cls">
+                        <table>
+                            <tr>
+                                <th>COORDINATOR</th>
+                                <th>MEMBERS</th>
+                            </tr>
+                            <tr>
+                                <td>Mr. A. Vembathu Rajesh HOD / MECH</td>
+                                <td>
+                                    <p>Dr. M. Pandi Maharasan ASP /EEE</p>
+                                    <p>Ms. G. Sugila Devi AP /Civil</p>
+                                    <p>Mr. K. Rajaguru AP/ PHY</p>
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+
+                    <div class="cell-duty-cls">
+                        <h6>Duties &#38 Responsibilities</h6>
+                        <div class="cell-duty">
+                            <p><i class="fas fa-star"></i> Promote Faculty to active participation in relevant area of research by attending FDP, Workshops, Conference etc.,</p>
+                            <p><i class="fas fa-star"></i> To improve the Quality of faculty, need to arrange the events.</p>
+                            <p><i class="fas fa-star"></i> Maintain the record of incentive permitted to the faculty for all events.</p>
+                            <p><i class="fas fa-star"></i> Motivating Faculty to act as a Resource Person to various college. </p>
+                            <p><i class="fas fa-star"></i> Circulation of Faculty Achievement to all departments.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="item-1-26" class="tab-pane fade" role="tabpanel" aria-labelledby="item-1-1-tab">
+                    <div>
+                        <h4>Health and Fitness Cell</h4>
+                    </div>
+                    <div class="coordinator-cls">
+                        <table>
+                            <tr>
+                                <th>COORDINATOR</th>
+                                <th>MEMBERS</th>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <p>Mr. P. Selvakumar Phy.Dir</p>
+                                    <p>Ms. R. Malini Phy.Dir</p>
+                                </td>
+                                <td>
+                                    <p></p>
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+
+                    <div class="cell-duty-cls">
+                        <h6>Duties &#38 Responsibilities</h6>
+                        <div class="cell-duty">
+                            <p><i class="fas fa-star"></i> Improve the health and fitness of Staff and Students by Conducting activity periodically.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="item-1-27" class="tab-pane fade" role="tabpanel" aria-labelledby="item-1-1-tab">
+                    <div>
+                        <h4>Fine Arts Club</h4>
+                    </div>
+                    <div class="coordinator-cls">
+                        <table>
+                            <tr>
+                                <th>COORDINATOR</th>
+                                <th>MEMBERS</th>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <p>Mr. R. Pradeep Kumar Ap /ECE</p>
+                                    <p>Ms. K. Malar Ap /EEE</p>
+                                </td>
+                                <td>
+                                    <p>Ms. M. Gayathri AP/ CSE</p>
+                                    <p>Mrs. M. Jeyalakshmi AP /Maths</p>
+                                    <p>Ms .J. Iswarya AP /Eng</p>
+                                    <p>Ms. S. Gayathri Ap/ Civil</p>
+                                    <p>Mr. R. Nagaraja AP /Mech</p>
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+
+                    <div class="cell-duty-cls">
+                        <h6>Duties &#38 Responsibilities</h6>
+                        <div class="cell-duty">
+                            <p><i class="fas fa-star"></i> Conduct the College Cultural Competitions in Odd Semester</p>
+                            <p><i class="fas fa-star"></i> Coordinate cultural Programmes for Annual Day & other College function</p>
+                            <p><i class="fas fa-star"></i> Motivate the students to take part in Cultural Competitions conducted by other Colleges</p>
+                        </div>
+                    </div>
+                </div>
+                <!--End of Development Cell-->
+
+                <!--Maintance Cells Start-->
+                <div id="item-1-28" class="tab-pane fade" role="tabpanel" aria-labelledby="item-1-1-tab">
+                    <div>
+                        <h4>Website Maintenance cell</h4>
+                    </div>
+                    <div class="coordinator-cls">
+                        <table>
+                            <tr>
+                                <th>COORDINATOR</th>
+                                <th>MEMBERS</th>
+                            </tr>
+                            <tr>
+                                <td>Mr. C. Prathap HOD /CSE</td>
+                                <td>
+                                    <p>Mr. L. S. Vignesh AP /CSE</p>
+                                    <p>Mr. A. Duraimurugan AP / CSE</p>
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+
+                    <div class="cell-duty-cls">
+                        <h6>Duties &#38 Responsibilities</h6>
+                        <div class="cell-duty">
+                            <p><i class="fas fa-star"></i> Maintain and update the College Website</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="item-1-29" class="tab-pane fade" role="tabpanel" aria-labelledby="item-1-1-tab">
+                    <div>
+                        <h4>Transport Maintenance Cell</h4>
+                    </div>
+                    <div class="coordinator-cls">
+                        <table>
+                            <tr>
+                                <th>COORDINATOR</th>
+                                <th>MEMBERS</th>
+                            </tr>
+                            <tr>
+                                <td>Mr. S. Prathap AP /ECE</td>
+                                <td>
+                                    <p>Mr. R. Nagaraja AP / Mech</p>
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+
+                    <div class="cell-duty-cls">
+                        <h6>Duties &#38 Responsibilities</h6>
+                        <div class="cell-duty">
+                            <p><i class="fas fa-star"></i> Arrange the transport as per the need</p>
+                            <p><i class="fas fa-star"></i> Monitor the transport regularly</p>
+                            <p><i class="fas fa-star"></i> Prepare the Bata for the Drivers</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="item-1-30" class="tab-pane fade" role="tabpanel" aria-labelledby="item-1-1-tab">
+                    <div>
+                        <h4>DTP work Maintenance cell</h4>
+                    </div>
+                    <div class="coordinator-cls">
+                        <table>
+                            <tr>
+                                <th>COORDINATOR</th>
+                                <th>MEMBERS</th>
+                            </tr>
+                            <tr>
+                                <td>Mr. N. Mathavan VP /Admin</td>
+                                <td>
+                                    <p>Mrs. S. Lalitha JA</p>
+                                    <p>Mr. P. Ponmanikandan JA</p>
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+
+                    <div class="cell-duty-cls">
+                        <h6>Duties &#38 Responsibilities</h6>
+                        <div class="cell-duty">
+                            <p><i class="fas fa-star"></i> Follow the all TMHNU press and store related things</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="item-1-31" class="tab-pane fade" role="tabpanel" aria-labelledby="item-1-1-tab">
+                    <div>
+                        <h4>Uniform Maintenance cell</h4>
+                    </div>
+                    <div class="coordinator-cls">
+                        <table>
+                            <tr>
+                                <th>COORDINATOR</th>
+                                <th>MEMBERS</th>
+                            </tr>
+                            <tr>
+                                <td>Mr. N. Mathavan VP /Admin</td>
+                                <td>
+                                    <p>Mrs. S. Lalitha JA</p>
+                                    <p>Mr. P. Ponmanikandan JA</p>
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+
+                    <div class="cell-duty-cls">
+                        <h6>Duties &#38 Responsibilities</h6>
+                        <div class="cell-duty">
+                            <p><i class="fas fa-star"></i> Follow the all TMHNU press and store related things</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="item-1-32" class="tab-pane fade" role="tabpanel" aria-labelledby="item-1-1-tab">
+                    <div>
+                        <h4>Store Maintenance cell</h4>
+                    </div>
+                    <div class="coordinator-cls">
+                        <table>
+                            <tr>
+                                <th>COORDINATOR</th>
+                                <th>MEMBERS</th>
+                            </tr>
+                            <tr>
+                                <td>Mr. N. Mathavan VP /Admin</td>
+                                <td>
+                                    <p>Mrs. S. Lalitha JA</p>
+                                    <p>Mr. P. Ponmanikandan JA</p>
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+
+                    <div class="cell-duty-cls">
+                        <h6>Duties &#38 Responsibilities</h6>
+                        <div class="cell-duty">
+                            <p><i class="fas fa-star"></i> Follow the all TMHNU press and store related things</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="item-1-33" class="tab-pane fade" role="tabpanel" aria-labelledby="item-1-1-tab">
+                    <div>
+                        <h4>Furniture Maintenance cell</h4>
+                    </div>
+                    <div class="coordinator-cls">
+                        <table>
+                            <tr>
+                                <th>COORDINATOR</th>
+                                <th>MEMBERS</th>
+                            </tr>
+                            <tr>
+                                <td>Mr. G. Arun Kumar AP/ MEch</td>
+                                <td>
+                                    <p>Mr. N. Vignesan AP /Phy</p>
+                                    <p>Mr. R. Pradeep Kumar AP/ ECE</p>
+                                    <p>Mr. N. Rathinavel Subramanian AP /EEE</p>
+                                    <p>Mr. S. Kalidass AP /CHE</p>
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+
+                    <div class="cell-duty-cls">
+                        <h6>Duties &#38 Responsibilities</h6>
+                        <div class="cell-duty">
+                            <p><i class="fas fa-star"></i> Plan the daily work</p>
+                            <p><i class="fas fa-star"></i> Maintain the complaint cum action taken register.</p>
+                            <p><i class="fas fa-star"></i> Periodically get the sign on register from the Principal </p>
+                            <p><i class="fas fa-star"></i> Need to be Reported to Vice Principal /Admin</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="item-1-34" class="tab-pane fade" role="tabpanel" aria-labelledby="item-1-1-tab">
+                    <div>
+                        <h4>Electrical Maintenance cell</h4>
+                    </div>
+                    <div class="coordinator-cls">
+                        <table>
+                            <tr>
+                                <th>COORDINATOR</th>
+                                <th>MEMBERS</th>
+                            </tr>
+                            <tr>
+                                <td>Mr. K. Ganesh AP/EEE</td>
+                                <td>
+                                    <p>Mr. K. M. Senthil Kumar Lab Tech., / EEE</p>
+                                    <p>Mr. A. Pradeep Raja Lab Tech., / EEE</p>
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+
+                    <div class="cell-duty-cls">
+                        <h6>Duties &#38 Responsibilities</h6>
+                        <div class="cell-duty">
+                            <p><i class="fas fa-star"></i> Plan the daily work</p>
+                            <p><i class="fas fa-star"></i> Maintain the complaint cum action taken register.</p>
+                            <p><i class="fas fa-star"></i> Periodically get the sign on register from the Principal </p>
+                            <p><i class="fas fa-star"></i> Need to be Reported to Vice Principal /Admin</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="item-1-35" class="tab-pane fade" role="tabpanel" aria-labelledby="item-1-1-tab">
+                    <div>
+                        <h4>Building & Water Maintenance cell</h4>
+                    </div>
+                    <div class="coordinator-cls">
+                        <table>
+                            <tr>
+                                <th>COORDINATOR</th>
+                                <th>MEMBERS</th>
+                            </tr>
+                            <tr>
+                                <td>Mr. N. Nagarathinam HOD / Civil</td>
+                                <td>
+                                    <p>Mr. T. Balakrishnan Lab Tech., / Civil</p>
+                                    <p>Mr. P. Gopinathan Lab Tech., /Civil</p>
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+
+                    <div class="cell-duty-cls">
+                        <h6>Duties &#38 Responsibilities</h6>
+                        <div class="cell-duty">
+                            <p><i class="fas fa-star"></i> Plan the daily work</p>
+                            <p><i class="fas fa-star"></i> Maintain the complaint cum action taken register.</p>
+                            <p><i class="fas fa-star"></i> Periodically get the sign on register from the Principal </p>
+                            <p><i class="fas fa-star"></i> Need to be Reported to Vice Principal /Admin</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="item-1-36" class="tab-pane fade" role="tabpanel" aria-labelledby="item-1-1-tab">
+                    <div>
+                        <h4>Security Maintenance cell</h4>
+                    </div>
+                    <div class="coordinator-cls">
+                        <table>
+                            <tr>
+                                <th>COORDINATOR</th>
+                                <th>MEMBERS</th>
+                            </tr>
+                            <tr>
+                                <td>Mr. P. G. Siva Sharma Karthick AP/ CSE</td>
+                                <td>
+                                    <p></p>
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+
+                    <div class="cell-duty-cls">
+                        <h6>Duties &#38 Responsibilities</h6>
+                        <div class="cell-duty">
+                            <p><i class="fas fa-star"></i> Plan the daily work</p>
+                            <p><i class="fas fa-star"></i> Maintain the complaint cum action taken register.</p>
+                            <p><i class="fas fa-star"></i> Periodically get the sign on register from the Principal </p>
+                            <p><i class="fas fa-star"></i> Need to be Reported to Vice Principal /Admin</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="item-1-37" class="tab-pane fade" role="tabpanel" aria-labelledby="item-1-1-tab">
+                    <div>
+                        <h4>Gardening cell</h4>
+                    </div>
+                    <div class="coordinator-cls">
+                        <table>
+                            <tr>
+                                <th>COORDINATOR</th>
+                                <th>MEMBERS</th>
+                            </tr>
+                            <tr>
+                                <td>Mr. K. Sundararajan Phy.Dir</td>
+                                <td>
+                                    <p>Mr. P. Selvakumar Phy.Dir</p>
+                                    <p>Ms. R.Malini Phy.Dir</p>
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+
+                    <div class="cell-duty-cls">
+                        <h6>Duties &#38 Responsibilities</h6>
+                        <div class="cell-duty">
+                            <p><i class="fas fa-star"></i> Plan the daily work</p>
+                            <p><i class="fas fa-star"></i> Maintain the complaint cum action taken register.</p>
+                            <p><i class="fas fa-star"></i> Periodically get the sign on register from the Principal </p>
+                            <p><i class="fas fa-star"></i> Need to be Reported to Vice Principal /Admin</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="item-1-31" class="tab-pane fade" role="tabpanel" aria-labelledby="item-1-1-tab">
+                    <div>
+                        <h4>DTP work, Uniform and Store Maintenance cell</h4>
+                    </div>
+                    <div class="coordinator-cls">
+                        <table>
+                            <tr>
+                                <th>COORDINATOR</th>
+                                <th>MEMBERS</th>
+                            </tr>
+                            <tr>
+                                <td>Mr. N. Mathavan VP /Admin</td>
+                                <td>
+                                    <p>Mrs. S. Lalitha JA</p>
+                                    <p>Mr. P. Ponmanikandan JA</p>
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+
+                    <div class="cell-duty-cls">
+                        <h6>Duties &#38 Responsibilities</h6>
+                        <div class="cell-duty">
+                            <p><i class="fas fa-star"></i> Follow the all TMHNU press and store related things</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="item-1-39" class="tab-pane fade" role="tabpanel" aria-labelledby="item-1-1-tab">
+                    <div>
+                        <h4>Housekeeping Maintenance cell</h4>
+                    </div>
+                    <div class="coordinator-cls">
+                        <table>
+                            <tr>
+                                <th>COORDINATOR</th>
+                                <th>MEMBERS</th>
+                            </tr>
+                            <tr>
+                                <td>Mr. K. Sundararajan Phy.Dir</td>
+                                <td>
+                                    <p>Mr. P. Selvakumar Phy.Dir</p>
+                                    <p>Ms. R. Malini Phy.Dir</p>
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+
+                    <div class="cell-duty-cls">
+                        <h6>Duties &#38 Responsibilities</h6>
+                        <div class="cell-duty">
+                            <p><i class="fas fa-star"></i> Plan the daily work</p>
+                            <p><i class="fas fa-star"></i> Maintain the complaint cum action taken register.</p>
+                            <p><i class="fas fa-star"></i> Periodically get the sign on register from the Principal </p>
+                            <p><i class="fas fa-star"></i> Need to be Reported to Vice Principal /Admin</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="item-1-42" class="tab-pane fade" role="tabpanel" aria-labelledby="item-1-1-tab">
+                    <div>
+                        <h4>Public Relation Cell</h4>
+                    </div>
+                    <div class="coordinator-cls">
+                        <table>
+                            <tr>
+                                <th>COORDINATOR</th>
+                                <th>MEMBERS</th>
+                            </tr>
+                            <tr>
+                                <td>Mr. S. Sinthan Libraian</td>
+                                <td>
+                                    <p>Mr. P. Raman Assistant/ Lib</p>
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+
+                    <div class="cell-duty-cls">
+                        <h6>Duties &#38 Responsibilities</h6>
+                        <div class="cell-duty">
+                            <p><i class="fas fa-star"></i> Call the press/media people with the invitation</p>
+                            <p><i class="fas fa-star"></i> Follow the activity news sent to the press/media</p>
+                            <p><i class="fas fa-star"></i> Need to be Reported to Vice Principal /Admin.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="item-1-38" class="tab-pane fade" role="tabpanel" aria-labelledby="item-1-1-tab">
+                    <div>
+                        <h4>Communication Maintance Cell</h4>
+                    </div>
+                    <div class="coordinator-cls">
+                        <table>
+                            <tr>
+                                <th>COORDINATOR</th>
+                                <th>MEMBERS</th>
+                            </tr>
+                            <tr>
+                                <td>Mr. K.Vasanth Kumar Manager / Admin</td>
+                                <td>
+                                    <p>Mr. K.Samuundessaran lab Asst /ECE</p>
+                                    <p>Ms. J.Rajmadhu Lab Asst /ECE</p>
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+                    <div class="cell-duty-cls">
+                        <h6>Duties &#38 Responsibilities</h6>
+                        <div class="cell-duty">
+                            <p><i class="fas fa-star"></i> Plan the daily work</p>
+                            <p><i class="fas fa-star"></i> Maintain the complaint cum action taken register.</p>
+                            <p><i class="fas fa-star"></i> Periodically get the sign on register from the Principal </p>
+                            <p><i class="fas fa-star"></i> Need to be Reported to Vice Principal /Admin</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="item-1-40" class="tab-pane fade" role="tabpanel" aria-labelledby="item-1-1-tab">
+                    <div>
+                        <h4>Air Conditioner Maintance Cell</h4>
+                    </div>
+                    <div class="coordinator-cls">
+                        <table>
+                            <tr>
+                                <th>COORDINATOR</th>
+                                <th>MEMBERS</th>
+                            </tr>
+                            <tr>
+                                <td>Mr. R.Radhakrishnan AP/Mech</td>
+                                <td>
+                                    <p>Mr. M.Ramkumar LA/MECH</p>
+                                    <p>Ms. M.Vijaykumar LA/MECH</p>
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+
+                    <div class="cell-duty-cls">
+                        <h6>Duties &#38 Responsibilities</h6>
+                        <div class="cell-duty">
+                            <p><i class="fas fa-star"></i> Plan the daily work</p>
+                            <p><i class="fas fa-star"></i> Maintain the complaint cum action taken register.</p>
+                            <p><i class="fas fa-star"></i> Periodically get the sign on register from the Principal </p>
+                            <p><i class="fas fa-star"></i> Need to be Reported to Vice Principal /Admin</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="item-1-41" class="tab-pane fade" role="tabpanel" aria-labelledby="item-1-1-tab">
+                    <div>
+                        <h4>System, Intercom, Networking Maintance Cell</h4>
+                    </div>
+                    <div class="coordinator-cls">
+                        <table>
+                            <tr>
+                                <th>COORDINATOR</th>
+                                <th>MEMBERS</th>
+                            </tr>
+                            <tr>
+                                <td>Mr. D.Vasantha Kumar Manager/ Admin</td>
+                                <td>
+                                    <p>Me. P.Kunaravel LA/CSE</p>
+                                    <p>Me. P.Lawrence LA/CSE</p>
+                                    <p>Me. P.Shabana LA/CSE</p>
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+
+                    <div class="cell-duty-cls">
+                        <h6>Duties &#38 Responsibilities</h6>
+                        <div class="cell-duty">
+                            <p><i class="fas fa-star"></i> Plan the daily work</p>
+                            <p><i class="fas fa-star"></i> Maintain the complaint cum action taken register.</p>
+                            <p><i class="fas fa-star"></i> Periodically get the sign on register from the Principal </p>
+                            <p><i class="fas fa-star"></i> Need to be Reported to Vice Principal /Admin</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    <footer class="footer-dark" style="margin-top: 62px;">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6 col-md-3 item">
+                    <h6>CONTACT</h6>
+                    <ul>
+                        <li><span><a href="#">principal@nscet.org</a><br></span></li>
+                        <li><span style="color: rgb(255, 255, 255);"><a href="#">04546-263900, 901, 902</a><br></span></li>
+                        <li><span style="color: rgba(255,255,255,0.5);">Nadar Saraswathi College of Engineering and Technology, <br>PostboxNo:60,&nbsp;<br>Anjani(P.O), Vadapudupatti,&nbsp;<br>Theni-625531<br><br></span></li>
+                    </ul>
+                </div>
+                <div class="col-sm-6 col-md-3 item">
+                    <h6>DETAILS</h6>
+                    <ul>
+                        <li><a href="#">Approval from statutory bodies</a></li>
+                        <li><a href="#" style="color: rgb(240, 249, 255);">Fee structure</a></li>
+                        <li><a href="#">Anti-Ragging</a></li>
+                        <li><a href="#">Grivance Redresal</a></li>
+                        <li><a href="#">Newsletters</a></li>
+                        <li><a href="#">Magazines</a></li>
+                    </ul>
+                </div>
+                <div class="col-sm-6 col-md-3 item">
+                    <h6>DISCLOSURE</h6>
+                    <ul>
+                        <li><a href="#">Mandatory disclosure</a></li>
+                        <li><a href="#">Student Facilitation service</a></li>
+                        <li><a href="#">Admission policies &amp; processes</a></li>
+                        <li><a href="#">AICTE Approval handbook</a></li>
+                        <li><a href="#">AU Affliation</a></li>
+                        <li><a href="#">NIRF 2021</a></li>
+                    </ul>
+                </div>
+                <div class="col d-flex justify-content-center align-items-center flex-md-row align-items-md-center flex-lg-column align-items-lg-center item social" style="margin-top: 0px;"><a style="margin-top: 8px;margin-bottom: 8px;"><i class="icon ion-social-facebook"></i></a><a style="margin-top: 8px;margin-bottom: 8px;"><i class="icon ion-social-twitter"></i></a><a style="margin-top: 8px;margin-bottom: 8px;"><i class="icon ion-social-snapchat"></i></a>
+                    <a style="margin-top: 8px;margin-bottom: 8px;"><i class="icon ion-social-instagram"></i></a>
+                </div>
+            </div>
+            <p class="copyright">Innovative Software Product Insustry of NSCET © 2021</p>
+        </div>
+    </footer>
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="assets/js/expan-cool.js"></script>
+</body>
+
+</html>
