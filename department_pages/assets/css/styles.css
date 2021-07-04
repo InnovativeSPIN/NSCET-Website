@@ -36,6 +36,7 @@ a {
         position: sticky;
         top: 81px;
         z-index: 2;
+        border-radius:0px;
     }
     .tabs a.active {
         color: #fff;
