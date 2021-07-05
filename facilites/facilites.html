@@ -13,6 +13,9 @@
     <link rel="stylesheet" href="assets/fonts/fontawesome5-overrides.min.css">
     <link rel="stylesheet" href="assets/css/head_foo.css">
     <link rel="stylesheet" href="assets/css/styles.css">
+
+
+
 </head>
 
 <body>
@@ -302,6 +305,51 @@
     </footer>
     <script src="assets/js/jquery.min.js"></script>
     <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+
+    <script>
+
+        function check(){
+            var link = window.location.href;
+            var re = /#/;
+            if (re.test(link)){
+                var id_code = link.split("#")[1];
+
+                if (id_code){
+                    var elements_to_rem = document.getElementsByClassName("active");
+                    for (let i=0; i<elements_to_rem.length; i++){
+                        elements_to_rem[i].classList.remove("active");
+                        console.log(elements_to_rem[i].classList)
+                    }
+
+                    var elements_to_rem = document.getElementsByClassName("show");
+                    for (let i=0; i<elements_to_rem.length; i++){
+                        elements_to_rem[i].classList.remove("show");
+                    }
+
+                    var element_to_active = document.getElementById(id_code+"-tab");
+                    element_to_active.classList.add("active");
+
+                    var element_to_show = document.getElementById(id_code);
+                    element_to_show.classList.add("show");
+                    element_to_show.classList.add("active");
+
+                    if (id_code!=="item-1-1"){
+                    var element_to_del = document.getElementById("item-1-1");
+                    element_to_del.classList.remove("active");}
+                }
+
+            }
+        }
+
+    </script>
+
+    <script>
+        window.addEventListener("load",()=>{
+        check()
+        })
+    </script>
+
+
 </body>
 
 </html>
