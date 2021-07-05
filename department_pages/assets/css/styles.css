@@ -10,7 +10,7 @@ a {
     background: #fff;
     box-shadow: 0px 5px 8px #000000;
     display: inline-block;
-    border-radius: 50px;
+    border-radius: 0px;
     position: relative;
 }
 
@@ -36,6 +36,7 @@ a {
         position: sticky;
         top: 81px;
         z-index: 2;
+        border-radius:0px;
     }
     .tabs a.active {
         color: #fff;
@@ -50,7 +51,7 @@ a {
         left: 0px;
         top: 0px;
         z-index: 1;
-        border-radius: 50px;
+        border-radius: 0px;
         transition-duration: 0.6s;
         transition-timing-function: cubic-bezier(0.68, -0.55, 0.265, 1.55);
         background: #104565;
