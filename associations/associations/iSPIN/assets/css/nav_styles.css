@@ -1,0 +1,82 @@
+.left-nav img {
+    position: absolute;
+    width: 30%;
+    left: 0;
+    z-index: -5;
+}
+
+.right-nav img {
+    position: absolute;
+    width: 73%;
+    right: 0;
+    z-index: -5;
+}
+
+
+/*header*/
+
+
+/*navi*/
+
+.navi {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+/*brand*/
+
+.brand {
+    display: flex;
+    align-items: center;
+    padding: 1vh;
+}
+
+.brand h1 {
+    font-family: 'Rokkitt', serif;
+    font-size: 5vw;
+    margin-left: 1vw;
+    color: tomato;
+}
+
+.brand div span {
+    font-family: 'Rokkitt', serif;
+    font-size: 1vw;
+    color: whitesmoke;
+    position: absolute;
+    top: 11%;
+    left: 8.5%;
+}
+
+.brand img {
+    width: 7vw;
+}
+
+
+/*m=nav-links*/
+
+.nav-links {
+    display: flex;
+    margin: 3vh 2vw;
+}
+
+.nav-links .link {
+    margin: 0 1.5vw;
+}
+
+.nav-links .link a {
+    font-family: 'Rokkitt', serif;
+    font-size: 1.8vw;
+    color: whitesmoke;
+}
+
+.nav-links .reg {
+    margin: 0 4vw;
+}
+
+.nav-links .reg a {
+    background-color: tomato;
+    padding: 0.2vh 0.6vw;
+    border-radius: 0.5vw;
+    border: 1px solid white;
+}

@@ -1,0 +1,176 @@
+a {
+    cursor: pointer;
+}
+
+.tabs {
+    margin-top: 0px;
+    font-size: 24px;
+    padding: 0px;
+    list-style: none;
+    background: #fff;
+    box-shadow: 0px 5px 8px #000000;
+    display: inline-block;
+    border-radius: 0px;
+    position: relative;
+}
+
+.tabs a {
+    text-decoration: none;
+    color: #777;
+    text-transform: uppercase;
+    padding: 10px 20px;
+    display: inline-block;
+    position: relative;
+    z-index: 1;
+    transition-duration: 0.6s;
+}
+
+.tabs a i {
+    margin-right: 5px;
+}
+.irresponsive {
+  max-width: 80%;
+  height: 60%;
+}
+@media (min-width:768px) {
+    .wrapper {
+        text-align: center;
+        margin: 0px;
+        position: sticky;
+        top: 81px;
+        z-index: 2;
+        border-radius:0px;
+    }
+    .tabs a.active {
+        color: #fff;
+    }
+    .tabs {
+        background-color: rgb(255, 255, 255);
+    }
+    .tabs .selector {
+        height: 100%;
+        display: inline-block;
+        position: absolute;
+        left: 0px;
+        top: 0px;
+        z-index: 1;
+        border-radius: 0px;
+        transition-duration: 0.6s;
+        transition-timing-function: cubic-bezier(0.68, -0.55, 0.265, 1.55);
+        background: #104565;
+        /*
+        background: -moz-linear-gradient( 60deg, #3b6aaf 5%, #8e17f7 100%);
+        background: -webkit-linear-gradient(60deg, #3b6aaf 5%, #8e17f7 100%);
+        background: linear-gradient( 60deg, #3b6aaf 5%, #8e17f7 100%);
+        filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#05abe0', endColorstr='#8200f4', GradientType=1);
+        */
+    }
+}
+
+@media (max-width:768px) {
+    .wrapper {
+        text-align: center;
+        margin: 0px;
+    }
+    .tabs {
+        align-items: center;
+        border-radius: 0px;
+        background-color: rgb(235, 247, 255);
+        box-shadow: none;
+    }
+    .tabs a.active {
+        color: white;
+        background: #104565;
+        border-radius: 32px;
+    }
+    .tabs a {
+        font-size: 14px;
+        font-weight: bold;
+        background-color: #ab4bff;
+        color: white;
+        border-radius: 32px;
+        margin-top: 12px;
+    }
+}
+
+#faculty-link {
+    font-family: Adamina, serif;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+    color: black;
+}
+
+@media (max-width: 992px) {
+    h3 {
+        text-align: center;
+        font-family: Adamina, serif;
+        border-bottom-style: solid;
+        font-size: 30px;
+        color: rgb(90, 0, 112);
+    }
+}
+
+@media (min-width: 992px) {
+    h3 {
+        text-align: center;
+        font-family: Adamina, serif;
+        border-bottom-style: solid;
+        font-size: 36px;
+        color: rgb(90, 0, 112);
+    }
+}
+
+@media (min-width: 992px) {
+    h2 {
+        font-size: 35px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+        text-align: center;
+        font-family: Adamina, serif;
+        color: rgb(48, 0, 59);
+    }
+}
+
+@media (max-width: 992px) {
+    h2 {
+        font-size: 28px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+        text-align: center;
+        font-family: Adamina, serif;
+        color: rgb(48, 0, 59);
+    }
+}
+
+@media (min-width: 992px) {
+    .cd-top {
+        display: none;
+    }
+}
+
+@media (max-width: 992px) {
+    .cd-top {
+        display: block;
+    }
+}
+
+@media (max-width: 992px) {
+    .side-head {
+        border-left: 6px solid rgb(90, 0, 112);
+        font-size: 26px;
+    }
+}
+
+@media (min-width: 992px) {
+    .side-head {
+        border-left: 6px solid rgb(90, 0, 112);
+        font-size: 32px;
+    }
+}

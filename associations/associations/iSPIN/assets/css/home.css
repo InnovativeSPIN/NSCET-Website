@@ -1,0 +1,245 @@
+.hero {
+    z-index: -10;
+}
+
+.hero .main-name h1 {
+    color: tomato;
+    position: absolute;
+    top: 30%;
+    left: 5.5%;
+    text-align: center;
+    font-family: 'Rokkitt', serif;
+    font-size: 5.5vw;
+    text-shadow: 0px 0px rgba(245, 245, 245, 0.5);
+    line-height: 80%;
+}
+
+.hero .ani-name h1 {
+    position: absolute;
+    top: 50%;
+    left: 35%;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+}
+
+.start_btn {
+    position: absolute;
+    bottom: 16vh;
+    left: 45vw;
+    padding: 0.75vh 1vw;
+    width: 10vw;
+    font-size: 1.25vw;
+    background-color: rgb(22, 22, 22);
+    color: whitesmoke;
+    border: none;
+    box-shadow: 0px 1px 2px 1px rgba(245, 245, 245, 0.205);
+    border-radius: 1vw;
+    cursor: pointer;
+}
+
+.notify-bottom img {
+    position: absolute;
+    width: 80vw;
+    height: 10vh;
+    left: 10%;
+    bottom: 0;
+}
+
+.foot {
+    text-align: center;
+    width: 10vw;
+    position: absolute;
+    bottom: 2vh;
+    left: 30%;
+    font-size: 1.25vw;
+    color: whitesmoke;
+}
+
+.foot a {
+    color: whitesmoke;
+}
+
+.contact a {
+    margin: 0 0.5vw;
+    color: whitesmoke;
+}
+
+.contact {
+    position: absolute;
+    bottom: 2vh;
+    right: 30%;
+    font-size: 1.25vw;
+}
+
+.clg-logo a {
+    position: absolute;
+    bottom: 1vh;
+    left: 46%;
+    z-index: 5;
+}
+
+.clg-logo img {
+    width: 8vw;
+}
+
+.logos img {
+    position: absolute;
+    width: 8vw;
+    opacity: 0.02;
+}
+
+.logo1 {
+    top: 15%;
+}
+
+.logo2 {
+    top: 30%;
+}
+
+.logo3 {
+    top: 55%;
+    left: 45%;
+}
+
+.logo4 {
+    top: 58%;
+}
+
+.logo5 {
+    top: 80%;
+}
+
+.logo6 {
+    top: 19%;
+    left: 8%;
+}
+
+.logo7 {
+    top: 55%;
+    left: 8%;
+}
+
+.logo8 {
+    top: 76%;
+    left: 8%;
+}
+
+.logo9 {
+    top: 82%;
+    left: 16%;
+}
+
+.logo10 {
+    top: 70%;
+    left: 55%;
+}
+
+.logo11 {
+    top: 70%;
+    left: 35%;
+}
+
+.logo12 {
+    top: 33%;
+    left: 14%;
+}
+
+.logo13 {
+    top: 82%;
+    left: 28%;
+}
+
+.logo14 {
+    top: 16%;
+    left: 15%;
+}
+
+.logo15 {
+    top: 16%;
+    left: 26%;
+}
+
+.logo16 {
+    top: 30%;
+    left: 22%;
+}
+
+.logo17 {
+    top: 61%;
+    left: 20%;
+}
+
+.logo18 {
+    top: 18%;
+    left: 45%;
+}
+
+.logo19 {
+    top: 51%;
+    left: 29%;
+}
+
+.logo20 {
+    top: 12%;
+    right: 2%;
+}
+
+.logo21 {
+    top: 29%;
+    right: 4%;
+}
+
+.logo22 {
+    top: 50%;
+    right: 0%;
+}
+
+.logo23 {
+    top: 60%;
+    right: 5%;
+}
+
+.logo24 {
+    top: 80%;
+    right: 2%;
+}
+
+.logo25 {
+    top: 12%;
+    right: 14%;
+}
+
+.logo26 {
+    top: 28%;
+    right: 15%;
+}
+
+.logo27 {
+    top: 52%;
+    right: 13%;
+}
+
+.logo28 {
+    top: 74%;
+    right: 12%;
+}
+
+.logo29 {
+    top: 14%;
+    right: 30%;
+}
+
+.logo30 {
+    top: 27%;
+    right: 25%;
+}
+
+.logo31 {
+    top: 56%;
+    right: 30%;
+}
+
+.logo32 {
+    top: 80%;
+    right: 22%;
+}
